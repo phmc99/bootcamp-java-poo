@@ -7,7 +7,7 @@ public class Mentoring extends Content {
 
 
     @Override
-    public double calcularXp() {
+    public double xpCalculate() {
         return XP_PADRAO + 20d;
     }
 

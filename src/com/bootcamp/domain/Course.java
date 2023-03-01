@@ -4,7 +4,7 @@ public class Course extends Content {
     private int workLoad;
 
     @Override
-    public double calcularXp() {
+    public double xpCalculate() {
         return XP_PADRAO + 40d;
     }
 
